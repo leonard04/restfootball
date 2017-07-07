@@ -1,0 +1,32 @@
+{
+  "name": "rest-football",
+  "version": "1.0.0",
+  "description": "Application using REST API football",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonard04/restfootball.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "rest"
+  ],
+  "author": "IgnasiusLeonardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonard04/restfootball/issues"
+  },
+  "homepage": "https://github.com/leonard04/restfootball#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "hapi": "^16.0.2",
+    "lodash.filter": "^4.6.0",
+    "lodash.take": "^4.1.1",
+    "request": "^2.79.0",
+    "vision": "^4.1.1"
+  }
+}
